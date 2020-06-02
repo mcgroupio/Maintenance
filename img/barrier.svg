@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="380px" height="267px" viewBox="0 0 380 267" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <desc>Created with Lunacy</desc>
+  <g id="barrier-svgrepo-com">
+    <path d="M0 0L41.5869 0L41.5869 266.59L0 266.59L0 0Z" transform="translate(298.3857 0)" id="Rectangle" fill="#3F3D56" stroke="none" />
+    <path d="M0 7.0776L0 18.1996L80.5746 18.1996L80.5746 7.0776C80.5746 3.37029 75.896 0 69.658 0L10.9165 0C5.19836 -2.57132e-05 0 3.03324 0 7.0776L0 7.0776Z" transform="translate(278.6321 248.7273)" id="Shape" fill="#3F3D56" stroke="none" />
+    <path d="M0 0L41.5869 0L41.5869 266.59L0 266.59L0 0Z" transform="translate(39.50757 0)" id="Rectangle" fill="#3F3D56" stroke="none" />
+    <g id="Group" transform="translate(0 17.86255)">
+      <path d="M371.163 0L8.31738 0C3.63886 0 0 2.3592 0 5.39246L0 64.0355C0 67.0687 3.63886 69.4279 8.31738 69.4279L371.683 69.4279C376.361 69.4279 380 67.0687 380 64.0355L380 5.39246C379.48 2.3592 375.841 0 371.163 0L371.163 0Z" id="Shape" fill="#3F3D56" stroke="none" />
+      <path d="M371.163 0L8.31738 0C3.63886 0 0 2.3592 0 5.39246L0 64.0355C0 67.0687 3.63886 69.4279 8.31738 69.4279L371.683 69.4279C376.361 69.4279 380 67.0687 380 64.0355L380 5.39246C379.48 2.35919 375.841 0 371.163 0L371.163 0Z" transform="translate(0 93.35699)" id="Shape" fill="#3F3D56" stroke="none" />
+    </g>
+    <g id="Group" transform="translate(7.797546 17.86255)">
+      <path d="M99.2886 69.0909L49.3844 69.0909L0 0L49.9042 0L99.2886 69.0909Z" transform="translate(264.5964 0)" id="Polygon" fill="#6C63FF" stroke="none" />
+      <path d="M99.2886 69.0909L49.3844 69.0909L0 0L49.9042 0L99.2886 69.0909Z" transform="translate(176.2243 0)" id="Polygon" fill="#6C63FF" stroke="none" />
+      <path d="M99.2886 69.0909L49.3844 69.0909L0 0L49.9042 0L99.2886 69.0909Z" transform="translate(88.37213 0)" id="Polygon" fill="#6C63FF" stroke="none" />
+      <path d="M99.2886 69.0909L49.3844 69.0909L0 0L49.9042 0L99.2886 69.0909Z" id="Polygon" fill="#6C63FF" stroke="none" />
+      <path d="M99.2886 69.0909L49.3844 69.0909L0 0L49.9042 0L99.2886 69.0909Z" transform="translate(264.5964 93.35699)" id="Polygon" fill="#6C63FF" stroke="none" />
+      <path d="M99.2886 69.0909L49.3844 69.0909L0 0L49.9042 0L99.2886 69.0909Z" transform="translate(176.2243 93.35699)" id="Polygon" fill="#6C63FF" stroke="none" />
+      <path d="M99.2886 69.0909L49.3844 69.0909L0 0L49.9042 0L99.2886 69.0909Z" transform="translate(88.37213 93.35699)" id="Polygon" fill="#6C63FF" stroke="none" />
+      <path d="M99.2886 69.0909L49.3844 69.0909L0 0L49.9042 0L99.2886 69.0909Z" transform="translate(0 93.35699)" id="Polygon" fill="#6C63FF" stroke="none" />
+    </g>
+    <path d="M0 7.0776L0 18.1996L80.5746 18.1996L80.5746 7.0776C80.5746 3.37029 75.896 0 69.658 0L10.3967 0C4.67852 -2.57132e-05 0 3.03324 0 7.0776L0 7.0776Z" transform="translate(20.27356 248.7273)" id="Shape" fill="#3F3D56" stroke="none" />
+  </g>
+</svg>

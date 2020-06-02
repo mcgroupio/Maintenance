@@ -1,0 +1,89 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MCgroup | Maintenance</title>
+    <!-- OpenGraph -->
+    <meta property="og:title" content="MCgroup | Maintenance">
+    <meta property="og:description" content="We will be right back!">
+    <meta property="og:url" content="https://mcversions.io">
+    <meta property="og:image" content="{{ url_for('static', filename='favicon.png') }}">
+    <!-- Icon -->
+    <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.png') }}" type="image/x-icon">
+    <!-- UIkit JS -->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.3.7/dist/js/uikit.min.js"></script>
+    <script src="js/icons.js"></script>
+    <!-- Nunito Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <!-- Custom CSS overides -->
+    <link rel="stylesheet" href="css/uikit.css">
+    <link rel="stylesheet" href="css/index.css">
+    <!-- Loader JS -->
+    <script src="{{ url_for('static', filename='js/loader.js') }}"></script>
+    <style>
+        /* Didn't want to make another stylesheet for 1 rule */
+        button {
+            height: 44px;
+            width: 190px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="loader loader--active">
+        <div class="loader__icon">
+            <img src="{{ url_for('static', filename='loader.svg') }}" alt="">
+        </div>
+        <div class="loader__tile"></div>
+        <div class="loader__tile"></div>
+        <div class="loader__tile"></div>
+        <div class="loader__tile"></div>
+        <div class="loader__tile"></div>
+    </div>
+    <section class="uk-height-viewport uk-text-left main">
+        <div class="uk-navbar-container uk-navbar-transparent" uk-navbar>
+            <div class="uk-navbar-center">
+                <a class="uk-logo uk-margin-medium-bottom" href="/" style="margin-top: 40px;"><img
+                        data-src="img/logo.svg" width="127.95px" height="27px"
+                        alt="Logo" uk-img></a>
+            </div>
+        </div>
+        <div class="uk-position-center uk-text-center">
+            <img data-src="img/barrier.svg" width="" height="" alt="404" uk-img>
+            <h1 class="uk-margin-small-top header"><mark>Maintenance</mark></h1>
+            <p style="max-width: 400px;">We're currently preforming some maintenance on our infrastructure, we will be back shortly!</p>
+            <div class="uk-align-center">
+                <a href="https://github.com/mcgroupio/" class="uk-icon-button uk-margin-small-right" uk-icon="github"></a>
+                <a href="https://discord.gg/Z4urmRy" class="uk-icon-button" uk-icon="discord"></a>  
+            </div>
+        </div>
+    </section>
+    <footer class="uk-padding-remove-top uk-visible@l"
+        style="width: 100%; margin-bottom: 10px; position: fixed; bottom: 0">
+        <div>
+            <a href="https://maurom.dev/" class="uk-link-reset">
+                <div class="uk-float-left uk-margin-xlarge-left footer-text"><span uk-icon="icon: code"></span> by <span
+                        class="dark">Mauro M.</span></div>
+            </a>
+            <a href="https://mcgroup.io/" class="uk-link-reset">
+                <div class="uk-float-right uk-margin-xlarge-right footer-text"><span uk-icon="icon: bolt"></span> by
+                    <span class="dark">MCgroup</span></div>
+            </a>
+        </div>
+    </footer>
+    <footer>
+        <div class="uk-hidden@l uk-margin-small-bottom uk-margin-top">
+            <a href="https://maurom.dev/" class="uk-link-reset">
+                <div class="uk-float-left uk-margin-large-left footer-text"><span uk-icon="icon: code"></span> by <span
+                        class="dark">Mauro M.</span></div>
+            </a>
+            <a href="https://mcgroup.io/" class="uk-link-reset">
+                <div class="uk-float-right uk-margin-large-right footer-text"><span uk-icon="icon: bolt"></span> by
+                    <span class="dark">MCgroup</span></div>
+            </a>
+        </div>
+    </footer>
+</body>
+
+</html>
